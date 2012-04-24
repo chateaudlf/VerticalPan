@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99DA90EF1542365F000DE20B /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DA90EE1542365F000DE20B /* FrontViewController.m */; };
+		9D91F85E1540D3C70004217B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D91F85D1540D3C70004217B /* UIKit.framework */; };
+		9D91F8601540D3C70004217B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D91F85F1540D3C70004217B /* Foundation.framework */; };
+		9D91F8621540D3C70004217B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D91F8611540D3C70004217B /* CoreGraphics.framework */; };
+		9D91F8681540D3C70004217B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D91F8661540D3C70004217B /* InfoPlist.strings */; };
+		9D91F86A1540D3C70004217B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D91F8691540D3C70004217B /* main.m */; };
+		9D91F86E1540D3C70004217B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D91F86D1540D3C70004217B /* AppDelegate.m */; };
+		9D91F8711540D3C70004217B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D91F86F1540D3C70004217B /* MainStoryboard.storyboard */; };
+		9D91F88F154130210004217B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D91F88E154130210004217B /* QuartzCore.framework */; };
+		9D91F898154130970004217B /* BackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D91F891154130970004217B /* BackViewController.m */; };
+		9D91F89B154130970004217B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D91F897154130970004217B /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99DA90EE1542365F000DE20B /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FrontViewController.m; path = Views/FrontViewController.m; sourceTree = "<group>"; };
+		9D91F8591540D3C70004217B /* VerticalPan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerticalPan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D91F85D1540D3C70004217B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D91F85F1540D3C70004217B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D91F8611540D3C70004217B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D91F8651540D3C70004217B /* VerticalPan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VerticalPan-Info.plist"; sourceTree = "<group>"; };
+		9D91F8671540D3C70004217B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D91F8691540D3C70004217B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D91F86B1540D3C70004217B /* VerticalPan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VerticalPan-Prefix.pch"; sourceTree = "<group>"; };
+		9D91F86C1540D3C70004217B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D91F86D1540D3C70004217B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D91F8701540D3C70004217B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9D91F88E154130210004217B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9D91F890154130970004217B /* BackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackViewController.h; path = Views/BackViewController.h; sourceTree = "<group>"; };
+		9D91F891154130970004217B /* BackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackViewController.m; path = Views/BackViewController.m; sourceTree = "<group>"; };
+		9D91F892154130970004217B /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrontViewController.h; path = Views/FrontViewController.h; sourceTree = "<group>"; };
+		9D91F896154130970004217B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Views/MainViewController.h; sourceTree = "<group>"; };
+		9D91F897154130970004217B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Views/MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D91F8561540D3C70004217B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D91F88F154130210004217B /* QuartzCore.framework in Frameworks */,
+				9D91F85E1540D3C70004217B /* UIKit.framework in Frameworks */,
+				9D91F8601540D3C70004217B /* Foundation.framework in Frameworks */,
+				9D91F8621540D3C70004217B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D91F84E1540D3C70004217B = {
+			isa = PBXGroup;
+			children = (
+				9D91F8631540D3C70004217B /* VerticalPan */,
+				9D91F85C1540D3C70004217B /* Frameworks */,
+				9D91F85A1540D3C70004217B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D91F85A1540D3C70004217B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D91F8591540D3C70004217B /* VerticalPan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D91F85C1540D3C70004217B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D91F88E154130210004217B /* QuartzCore.framework */,
+				9D91F85D1540D3C70004217B /* UIKit.framework */,
+				9D91F85F1540D3C70004217B /* Foundation.framework */,
+				9D91F8611540D3C70004217B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D91F8631540D3C70004217B /* VerticalPan */ = {
+			isa = PBXGroup;
+			children = (
+				9D91F88C15412E5B0004217B /* Views */,
+				9D91F86C1540D3C70004217B /* AppDelegate.h */,
+				9D91F86D1540D3C70004217B /* AppDelegate.m */,
+				9D91F86F1540D3C70004217B /* MainStoryboard.storyboard */,
+				9D91F8641540D3C70004217B /* Supporting Files */,
+			);
+			path = VerticalPan;
+			sourceTree = "<group>";
+		};
+		9D91F8641540D3C70004217B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D91F8651540D3C70004217B /* VerticalPan-Info.plist */,
+				9D91F8661540D3C70004217B /* InfoPlist.strings */,
+				9D91F8691540D3C70004217B /* main.m */,
+				9D91F86B1540D3C70004217B /* VerticalPan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D91F88C15412E5B0004217B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D91F890154130970004217B /* BackViewController.h */,
+				9D91F891154130970004217B /* BackViewController.m */,
+				9D91F892154130970004217B /* FrontViewController.h */,
+				99DA90EE1542365F000DE20B /* FrontViewController.m */,
+				9D91F896154130970004217B /* MainViewController.h */,
+				9D91F897154130970004217B /* MainViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D91F8581540D3C70004217B /* VerticalPan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D91F8771540D3C70004217B /* Build configuration list for PBXNativeTarget "VerticalPan" */;
+			buildPhases = (
+				9D91F8551540D3C70004217B /* Sources */,
+				9D91F8561540D3C70004217B /* Frameworks */,
+				9D91F8571540D3C70004217B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerticalPan;
+			productName = VerticalPan;
+			productReference = 9D91F8591540D3C70004217B /* VerticalPan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D91F8501540D3C70004217B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = M2D2;
+			};
+			buildConfigurationList = 9D91F8531540D3C70004217B /* Build configuration list for PBXProject "VerticalPan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D91F84E1540D3C70004217B;
+			productRefGroup = 9D91F85A1540D3C70004217B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D91F8581540D3C70004217B /* VerticalPan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D91F8571540D3C70004217B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D91F8681540D3C70004217B /* InfoPlist.strings in Resources */,
+				9D91F8711540D3C70004217B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D91F8551540D3C70004217B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D91F86A1540D3C70004217B /* main.m in Sources */,
+				9D91F86E1540D3C70004217B /* AppDelegate.m in Sources */,
+				9D91F898154130970004217B /* BackViewController.m in Sources */,
+				9D91F89B154130970004217B /* MainViewController.m in Sources */,
+				99DA90EF1542365F000DE20B /* FrontViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D91F8661540D3C70004217B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D91F8671540D3C70004217B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D91F86F1540D3C70004217B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D91F8701540D3C70004217B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D91F8751540D3C70004217B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D91F8761540D3C70004217B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D91F8781540D3C70004217B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VerticalPan/VerticalPan-Prefix.pch";
+				INFOPLIST_FILE = "VerticalPan/VerticalPan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D91F8791540D3C70004217B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VerticalPan/VerticalPan-Prefix.pch";
+				INFOPLIST_FILE = "VerticalPan/VerticalPan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D91F8531540D3C70004217B /* Build configuration list for PBXProject "VerticalPan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D91F8751540D3C70004217B /* Debug */,
+				9D91F8761540D3C70004217B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D91F8771540D3C70004217B /* Build configuration list for PBXNativeTarget "VerticalPan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D91F8781540D3C70004217B /* Debug */,
+				9D91F8791540D3C70004217B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D91F8501540D3C70004217B /* Project object */;
+}
