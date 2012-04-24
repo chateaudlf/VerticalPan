@@ -1,0 +1,4 @@
+VerticalPan
+===========
+
+Vertically sliding views
